@@ -12,6 +12,3 @@ class InputEmbeddings(nn.Module):
 
     def forward(self, x):
         return self.embedding(x) * self.d_model_sqrt
-
-    def backward(self):
-        return
