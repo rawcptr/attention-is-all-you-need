@@ -8,3 +8,9 @@ wheels/
 
 # Virtual environments
 .venv
+
+# editor specific configuration
+.vscode/
+
+# notebooks
+*.ipynb
